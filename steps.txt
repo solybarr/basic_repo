@@ -1,0 +1,13 @@
+1. Created basic_repo folder: mkdir basic_repo
+2. Moved inside the folder: cd basic_repo
+3. Initialized the repo: git init
+4. Added files: touch README.md; touch sample.txt;
+5. Edited the files and added text: open -t README.md; 
+6. Added files and commited the changes: git add .; git commit -m "Initial commit with text changes"
+7. Created remote:  git remote add origin https://github.com/solybarr/basic_repo.git
+8. Checked creation: git remote -v
+9. Pushed changes to repo: git push origin master
+10. Added more content to files then commited and pushed: 
+git add .
+git commit -m "some more changes"
+git push origin master
